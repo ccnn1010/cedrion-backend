@@ -13,7 +13,7 @@ app.use(bodyParser.json())
 
 //GET route to home page
 app.get('/', (req, res)=>{
-    res.send('Connected correctly')
+    res.send('Connected')
 })
 
 //Route to connect checkpoint database /playlist and /track
